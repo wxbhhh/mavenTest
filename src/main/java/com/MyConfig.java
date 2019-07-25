@@ -39,9 +39,9 @@ public class MyConfig {
     }
 
     public static void main(String args[]){
-        //SpringApplication.run(MyConfig.class,args);
-        ApplicationContext ac=new AnnotationConfigApplicationContext(MyConfig.class);
+        SpringApplication.run(MyConfig.class,args);
+        /*ApplicationContext ac=new AnnotationConfigApplicationContext(MyConfig.class);
         UserDao userdao=ac.getBean(UserDao.class);
-        userdao.show();
+        userdao.show();*/
     }
 }
